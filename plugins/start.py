@@ -126,8 +126,8 @@ async def start_command(client: Client, message: Message):
                 except:
                     pass
 
-            SD = await message.reply_text(" ⚠ ʙʀᴏ!! ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ 1 ᴍɪɴᴜᴛᴇ ꜱᴏ ꜱᴀᴠᴇ ɪᴛ ᴏɴ ɢᴀʟʟᴇʀʏ ᴏʀ ꜰᴏʀᴡᴀʀᴅ ɪᴛ ᴏɴ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ!")
-            await asyncio.sleep(60)
+            SD = await message.reply_text(" ⚠ ʙʀᴏ!! ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ 30 ᴍɪɴᴜᴛᴇ ꜱᴏ ꜱᴀᴠᴇ ɪᴛ ᴏɴ ɢᴀʟʟᴇʀʏ ᴏʀ ꜰᴏʀᴡᴀʀᴅ ɪᴛ ᴏɴ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇꜱ!")
+            await asyncio.sleep(1800)
 
             for snt_msg in snt_msgs:
                 try:
